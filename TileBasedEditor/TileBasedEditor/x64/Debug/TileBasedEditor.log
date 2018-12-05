@@ -1,0 +1,18 @@
+﻿main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+Window.obj : error LNK2001: unresolved external symbol SDL_Init
+Window.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: bool __cdecl Window::OnCreate(void)" (?OnCreate@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: void __cdecl Window::OnDestroy(void)" (?OnDestroy@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: bool __cdecl Window::OnCreate(void)" (?OnCreate@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_GetWindowSurface referenced in function "public: bool __cdecl Window::OnCreate(void)" (?OnCreate@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl Window::OnDestroy(void)" (?OnDestroy@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Window::EventHandler(void)" (?EventHandler@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: bool __cdecl Window::OnCreate(void)" (?OnCreate@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl Window::ClearWindow(void)" (?ClearWindow@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl Window::ClearWindow(void)" (?ClearWindow@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: void __cdecl Window::OnDestroy(void)" (?OnDestroy@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: void __cdecl Window::OnDestroy(void)" (?OnDestroy@Window@@QEAAXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\SDL2-2.0.8\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SDL2-2.0.8\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SDL2-2.0.8\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\JF\Documents\GitHub\TileEditor\TileBasedEditor\x64\Debug\TileBasedEditor.exe : fatal error LNK1120: 13 unresolved externals

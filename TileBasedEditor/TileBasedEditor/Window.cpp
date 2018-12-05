@@ -1,6 +1,6 @@
 #include "Window.h"
-#include "SDL.h"
 #include <iostream>
+#include <SDL.h>
 
 Window::Window(int width_, int height_) {
 	screenSurface = nullptr;
