@@ -1,7 +1,7 @@
 #ifndef  CAMERA_H
 #define CAMERA_H
 #include <SDL.h>
-#include <SDL_image.h>
+
 
 class Camera 
 {
@@ -30,7 +30,7 @@ private:
 	Update Functions
 	*/
 	void setCameraBoundary();
-	void renderReticle();
+	//void renderReticle();
 	SDL_Surface *reticle;
 	SDL_Texture *reticle_texture;
 
@@ -50,7 +50,7 @@ public:
 	*/
 	void displayReticle(SDL_Renderer *renderer);
 	Camera(const int SCREEN_WIDTH, const int SCREEN_HEIGHT);
-	void Update(float time);
+	
 	void HandleEvents(SDL_Event &event);
 	~Camera();
 };

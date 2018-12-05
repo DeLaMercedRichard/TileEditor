@@ -1,4 +1,5 @@
 #include "Camera.h"
+#include <SDL_image.h>
 /*
 Navigation Tips:
 Movement 
@@ -93,16 +94,8 @@ Camera::Camera(const int SCREEN_WIDTH, const int SCREEN_HEIGHT)
 	default_y_position = yposition;
 
 }
-void Camera::Update(float time)
-{
-	setCameraBoundary();
-	renderReticle();
 
-}
-void renderReticle()
-{
 
-}
 void Camera::setCameraBoundary()
 {
 	if (!hasBounds)
