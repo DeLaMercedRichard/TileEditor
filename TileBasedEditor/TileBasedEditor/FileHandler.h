@@ -3,7 +3,9 @@
 #include <vector>
 #include <string>
 
-
+enum Limits {
+	IMAGES_LIMIT = 10, OBJECT_LIMIT = 100 * 100
+};
 
 class GameObject;
 struct FileHandler {

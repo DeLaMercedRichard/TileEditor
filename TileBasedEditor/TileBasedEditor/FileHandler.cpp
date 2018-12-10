@@ -11,7 +11,7 @@ std::vector<std::shared_ptr<GameObject>> FileHandler::ReadFile(std::string fileN
 	
 	//the vector that will be returned through the read file method
 	std::vector<std::shared_ptr<GameObject>> objects;
-
+	objects.reserve(OBJECT_LIMIT);
 	std::ifstream objectFile(fileName_);
 	//temp variables that will be used to read in from the file and populate the vector
 	std::string imgName;
@@ -48,6 +48,7 @@ void FileHandler::WriteFile(std::vector<std::shared_ptr<GameObject>> objectVec_,
 std::vector<std::string> FileHandler::GetFilesInDirectory(std::string filePath_, std::string fileExt_) {
 	//vector of file string names
 	std::vector<std::string> files;
+	files.reserve(IMAGES_LIMIT);
 
 	//iterate recursively over the filepath and check for the specified extension, then add the string name of the file
 	//that has the corresponding extension to the vector of strings

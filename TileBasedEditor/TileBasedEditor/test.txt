@@ -5,3 +5,4 @@ goblin 3 40 10
 ogre 3 25 30
 water 0 90 100
 goblinslayer 2 0 0
+jack 2 15 28
