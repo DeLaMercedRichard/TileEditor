@@ -1,0 +1,7 @@
+ground 1 10 20
+grass 1 15 40
+wall 0 0 1
+goblin 3 40 10
+ogre 3 25 30
+water 0 90 100
+goblinslayer 2 0 0
